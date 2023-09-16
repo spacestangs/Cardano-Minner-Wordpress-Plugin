@@ -35,21 +35,6 @@ function cmwp_init()
 }
 add_action("init", "cmwp_init");
 
-function addcssfiles()
-{
-
-    wp_enqueue_style(
-        "style",
-        plugins_url("/scripts/styles.css", __FILE__),
-        false,
-        "1.0.1",
-        "all"
-    );
-
-}
-
-
-add_action("wp_enqueue_scripts", "addcssfiles");
 
 add_action( 'wp_footer', 'ak_cmwp');
 function ak_cmwp () {
